@@ -21,7 +21,6 @@ def find_greater_pair(src)
         puts  src[inner_array].max
         inner_array += 1
       end
-    return inner_results
 end
 
 def total_even_pairs(src)
