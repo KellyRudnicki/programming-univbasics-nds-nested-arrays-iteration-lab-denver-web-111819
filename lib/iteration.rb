@@ -36,7 +36,7 @@ def total_even_pairs(src)
   total = []
     
     while inner_array < src.count do
-      if src[inner_array][0] && src[inner_array][1] == even
+      if src[inner_array][0] && src[inner_array][1] == .even?
         total <
         
         inner_array += 1
