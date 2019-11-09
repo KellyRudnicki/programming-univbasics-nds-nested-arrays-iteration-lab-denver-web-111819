@@ -33,13 +33,15 @@ def total_even_pairs(src)
   # this!
   
   inner_array = 0
-  result_array = []
+  total = []
     
     while inner_array < src.count do
-        inner_results <<  "I love #{src[inner_array][0]} and #{src[inner_array][1]} on my pizza"
+      if src[inner_array][0] && src[inner_array][1] == even
+        total <
+        
         inner_array += 1
       end
-    return result_array
+    return total
   
   
 end
